@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🍽️ Recipe Planner
+Recipe Planner is a simple, user-friendly web app where you can search for recipes, save your favorites, and plan your meals for the week. Whether you're organizing meals for yourself or your whole family, this app makes it easy to stay on track — and well-fed!
 
-## Getting Started
+🚀 Getting Started
+To run the project locally:
 
-First, run the development server:
-
-```bash
+bash
+Copy
+Edit
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Then open your browser and go to:
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tech Stack
+Framework: Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Styling: Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+API: TheMealDB (https://themealdb.com)
 
-## Learn More
+PDF Export: html2pdf.js
 
-To learn more about Next.js, take a look at the following resources:
+Date utilities: date-fns
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Features
+🔍 Search for meals using ingredients or cuisine
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+❤️ Mark recipes as favorites and view them anytime
 
-## Deploy on Vercel
+🌍 Filter recipes by area (like Italian, Indian, etc.)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📋 See full instructions + ingredient lists
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Add your own ratings
+
+➕ Assign meals to any day of the week (breakfast, lunch, dinner)
+
+📅 Select any week to plan ahead
+
+🧾 Export your weekly meal plan to a PDF (with images + details)
+
+🌗 Dark mode support
+
+📱 Mobile-responsive and smooth to use
+
+🧪 Building & Deployment
+To build the app for production:
+
+bash
+Copy
+Edit
+npm run build
+Then start it with:
+
+bash
+Copy
+Edit
+npm start
+You can deploy this on platforms like Vercel or Netlify. For Vercel:
+
+Connect your GitHub repo.
+
+It detects Next.js automatically.
+
+Click deploy — that’s it.
+
+🧑‍🍳 How to Use It
+Use the search bar to find recipes (e.g., "chicken", "pasta")
+
+Filter by area to explore cuisines from around the world
+
+Click any recipe to view its details, ingredients, and instructions
+
+Use the “Add to Meal Planner” button to assign a meal to any day/slot
+
+Export your full weekly plan to a PDF
+
+Use the heart icon to save favorites
+
+Enable dark mode to give your eyes a break
+
+👤 Author
+Sai Charan Reddy
+GitHub: https://github.com/Reddysaicharan
+Email: your.email@example.com
+
