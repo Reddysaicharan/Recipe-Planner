@@ -14,8 +14,65 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+body::before {
+  content: "🍕 🍔 🌮 🍩 🍟 🍗";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  opacity: 0.05;
+  animation: float 20s linear infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-10%) translateX(0%);
+  }
+  100% {
+    transform: translateY(10%) translateX(-20%);
+  }
+}
+
+
+
+/* Card base styles */
+.recipe-card {
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.recipe-card:hover:not(.recipe-expanded) {
+  transform: scale(1.03);
+}
+
+
+.recipe-inactive {
+  opacity: 0.2;
+  filter: blur(2px);
+  pointer-events: none;
+  transform: scale(0.95);
+}
+
+.recipe-expanded {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.05);
+  z-index: 50;
+  background: white;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 700px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  scrollbar-gutter: stable;
+  filter: none !important;
+  opacity: 1 !important;
+  pointer-events: auto;
 }
