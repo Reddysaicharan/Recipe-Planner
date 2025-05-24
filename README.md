@@ -9,6 +9,7 @@ Recipe finder is an small application that lets you browse through multiple meal
 ### 1. Clone the repository
 
 ```bash
+#INSTALL DEPENDENCIES
 git clone https://github.com/Reddysaicharan/Recipe-Planner.git
 cd Recipe-Planner
 
