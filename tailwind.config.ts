@@ -22,4 +22,5 @@ const config: Config = {
 };
 
 export default config;
+//// Custom color palette added for theme consistency
 
