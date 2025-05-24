@@ -91,3 +91,5 @@ Persistence: localStorage
 
 If you want to make any suggetions or add anything to it, anyone can just contact me.
 Email: saicharanreddyreddy0333@gmail.com
+
+I've created this project in college, I am uploading this to the GitHub now. Don't mind if you see any outdated ideas. I am planning on developing this application in a full scale application.
