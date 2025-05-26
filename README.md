@@ -74,7 +74,7 @@ Go to the Meal Planner page to view and manage your full weekly plan.
 
 Click Export PDF to download a printable meal schedule with details.
 
-###Tech Stack I've used
+### Tech Stack 
 
 Frontend: Next.js, React, Tailwind CSS
 
